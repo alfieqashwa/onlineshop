@@ -7,5 +7,7 @@ featuredpost: true
 featuredimage: /img/chemex.jpg
 tags:
   - testing
+harga: 200
 ---
+
 Write info here?
