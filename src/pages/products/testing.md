@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: product-post
 title: Testing
 date: 2019-12-13T00:05:16.908Z
 description: Create new blog via Netlify CMS
@@ -7,7 +7,7 @@ featuredpost: true
 featuredimage: /img/code.png
 tags:
   - alfieqashwa
-harga: 700000
+price: 700000
 ---
 ![kopi](/img/blog-index.jpg "Kopi Bubuk")
 
