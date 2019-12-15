@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 // import Features from '../components/Features'
-import ProductRoll from '../components/ProductRoll'
+// import ProductRoll from '../components/Product'
 
 export const IndexPageTemplate = ({
   image,
@@ -98,7 +98,7 @@ export const IndexPageTemplate = ({
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
                   </h3>
-                  <ProductRoll />
+                  {/* <ProductRoll /> */}
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
                       Read more

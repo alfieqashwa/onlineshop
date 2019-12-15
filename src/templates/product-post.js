@@ -92,7 +92,7 @@ ProductPost.propTypes = {
 export default ProductPost;
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query ProductPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
