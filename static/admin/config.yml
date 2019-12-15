@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
+  repo: alfieqashwa/onlineshop
   branch: master
+  site_url: https://onlineshop.alfieqashwa.me
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -12,26 +14,26 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "product"
-    label: "Product"
-    folder: "src/pages/products"
-    create: true
+  - name: "product" # Used in routes, e.g., /admin/collections/blog
+    label: "Product" # Used in the UI
+    folder: "src/pages/products" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
     slug: "{{slug}}"
-    fields:
+    fields: # The fields for each document, usually in front matter
       - {
           label: "Template Key",
           name: "templateKey",
           widget: "hidden",
           default: "product-post",
         }
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Title", name: "title", widget: "string", pattern: ['.{16,}', "Must have at least 16 characters"] }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
-      - { label: "Featured Image", name: "featuredimage", widget: image }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Featured Image", name: "featuredimage", widget: "image" }
       - { label: "Price", name: "price", widget: "number" }
       - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Description", name: "body", widget: "markdown" }
 
   - name: "pages"
     label: "Pages"
