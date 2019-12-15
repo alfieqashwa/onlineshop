@@ -26,7 +26,7 @@ collections:
           widget: "hidden",
           default: "product-post",
         }
-      - { label: "Title", name: "title", widget: "string", pattern: ['.{16,}', "Must have at least 16 characters"] }
+      - { label: "Title", name: "title", widget: "string", pattern: ['.{5,}', "Must have at least 5 characters"] }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
