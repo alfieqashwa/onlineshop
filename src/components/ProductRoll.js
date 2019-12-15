@@ -47,7 +47,7 @@ class ProductRoll extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Detail →
                   </Link>
                 </p>
               </article>
