@@ -1,11 +1,11 @@
 import React from 'react';
-import ProductsFilter from './ProductsFilter';
+// import ProductsFilter from './ProductsFilter';
 import ProductsList from './ProductsList';
 
 const ProductsContainer = (props) => {
   return (
     <>
-      <ProductsFilter />
+      {/* <ProductsFilter /> */}
       <ProductsList />
     </>
   )

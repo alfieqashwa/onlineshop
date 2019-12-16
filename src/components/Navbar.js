@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { FaAlignRight } from 'react-icons/fa'
-import logo from '../../static/img/images/logo.svg'
+// import logo from '../../static/img/images/logo.svg'
 
 class Navbar extends React.Component {
   state = {
@@ -15,9 +15,12 @@ class Navbar extends React.Component {
       <nav className="navbar">
         <div className="nav-center">
           <div className="nav-header">
+            <ul className="nav-links-logo">
             <Link to="/">
-              <img src={logo} alt="Beach Resort" />
+              {/* <img src={logo} alt="Al-Hadi Karpet" /> */}
+              Al-hadi Karpet
             </Link>
+            </ul>
             <button
               type="button"
               className="nav-btn"

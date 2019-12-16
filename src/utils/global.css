@@ -111,6 +111,29 @@ h6 {
   font-size: 1.5rem;
   color: var(--primaryColor);
 }
+/* === start logo === */
+.nav-links-logo {
+  height: auto;
+  /* overflow: hidden; */
+  transition: var(--mainTransition);
+  list-style-type: none;
+  }
+.nav-links-logo a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 0;
+  color: var(--mainBlack);
+  transition: var(--mainTransition);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: var(--mainSpacing);
+  text-transform: uppercase;
+}
+.nav-links-logo a:hover {
+  color: var(--primaryColor);
+}
+/* === end logo === */
 .nav-links {
   height: 0;
   overflow: hidden;
@@ -131,7 +154,6 @@ h6 {
 .nav-links a:hover {
   color: var(--primaryColor);
 }
-
 .show-nav {
   height: 100px;
 }

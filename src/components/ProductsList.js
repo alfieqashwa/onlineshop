@@ -25,8 +25,10 @@ class ProductList extends React.Component {
                     />
                   ) : null}
                   <div className="price-top">
-                    <h6>Rp{post.frontmatter.price}</h6>
-                    <p>free ongkir</p>
+                    <h6><span styled={{
+                      fontSize: "small"
+                    }}>Rp</span>{post.frontmatter.price}</h6>
+                    <p>in stock</p>
                   </div>
                   <Link
                     className="btn-primary room-link"
