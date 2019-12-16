@@ -6,9 +6,10 @@ const ProductPostPreview = ({ entry, widgetFor }) => (
   <ProductPostTemplate
     content={widgetFor("body")}
     description={entry.getIn(["data", "description"])}
-    tags={entry.getIn(["data", "tags"])}
     title={entry.getIn(["data", "title"])}
     price={entry.getIn(["data", "price"])}
+    tags={entry.getIn(["data", "tags"])}
+    info={entry.getIn(["data", "info"])}
     featuredimage={entry.getIn(["data", "featuredimage"])}
   />
 );
