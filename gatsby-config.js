@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Al-Hadi Karpet',
     description:
-      'Al-Hadi Karpet Collections',
+      'Distributor sajadah, permadani, hambal & karpet masjid',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
