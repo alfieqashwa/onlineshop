@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-getaway
   repo: alfieqashwa/onlineshop
   branch: master
   site_url: https://onlineshop.alfieqashwa.me
@@ -28,7 +28,7 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string", pattern: ['.{5,}', "Must have at least 5 characters"] }
       - { label: "Publish Date", name: "date", widget: "hidden" }
-      - { label: "Featured Post", name: "featuredpost", widget: "hidden", default: false }
+      - { label: "Featured Post", name: "featuredpost", widget: "hidden" }
       - { label: "Featured Image", name: "featuredimage", widget: "image" }
       - { label: "Price", name: "price", widget: "number" }
       - { label: "Info", name: "info", widget: "list" }
