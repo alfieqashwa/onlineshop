@@ -5,46 +5,62 @@ import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import StyledHero from '../components/StyledHero';
+import Banner from '../components/Banner';
+
+import defaultBcg from '../../static/img/images/room-1.jpeg';
 
 export const ProductPostTemplate = ({
   content,
   contentComponent,
-  description,
-  tags,
   title,
+  featuredimage,
   price,
-  helmet
+  tags,
+  helmet,
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
-    <section className="section">
-      {helmet || ""}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h3 style={{ color: "blue" }}>{price}</h3>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
+    <>
+      <StyledHero img={ featuredimage.childImageSharp.fluid.src || defaultBcg}>
+        <Banner title={title}>
+          <Link to="/products" className="btn-primary">
+            back to products
+          </Link>
+        </Banner>
+      </StyledHero>
+      {/* === START IMAGES LIST === */}
+      <section className="single-room">
+        <div className="single-room-images">
+          <img src={featuredimage.childImageSharp.fluid.src} alt={title} />
         </div>
-      </div>
-    </section>
+      {/* === END IMAGES LIST === */}
+        <div className="single-room-info">
+        {helmet || ""}
+          <article className="desc">
+            <h3>details</h3>
+            <p>description</p>
+            <PostContent content={content} />
+          </article>
+          <article className="info">
+            <h3>info</h3>
+            <h6>price : Rp{price}</h6>
+            <h6>size : size SQFT</h6>
+            {/* <h6>{pets ? "pets allowed" : "no pets allowed"}</h6>
+            <h6>{breakfast && "free breakfast included"}</h6> */}
+          </article>
+        </div>
+      </section>
+      <section className="room-extras">
+        <h6>extras</h6>
+        <ul className="extras">
+          {tags.map((item, index) => (
+            <li key={index}>- {item}</li>
+          ))}
+        </ul>
+      </section>
+    </>
   );
 };
 
@@ -65,19 +81,15 @@ const ProductPost = ({ data }) => {
       <ProductPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Products">
             <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
           </Helmet>
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         price={post.frontmatter.price}
+        featuredimage={post.frontmatter.featuredimage}
       />
     </Layout>
   );
@@ -99,9 +111,15 @@ export const pageQuery = graphql`
       frontmatter {
         # date(formatString: "MMMM DD, YYYY")
         title
-        description
         price
         tags
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 92) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

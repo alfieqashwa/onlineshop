@@ -15,22 +15,29 @@ tags:
   - tasting
 ---
 
-We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.
+Sajadah Mada Safari Midi Spigel ini adalah sajadah import asli buatan Saudi Arabia yang tebal dan memiliki bulu lembut yg Halus. Sajadah ini tersedia dalam banyak varian Warna dan motif timur tengah yang bernafas Islami, terlihat sangat menarik dan menawan di mata orang Indonesia. Sehingga membuatnya sangat di gemari dan ideal untuk dijadikan oleh-oleh haji dan umroh.
 
-Blue Mountain Peak is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of Blue Mountain coffee and their famous tours. It is located on the border of the Portland and Saint Thomas parishes of Jamaica.
 
-## A little history
+- High Quality Made in Saudi (Imported)
+- Muslim Praying Mat (Sajadah / Sejadah) Exclusive
+- Terbuat dari Benang anti bakteri (Acrylic Polyester)
+- Motif dan Warna Menawan khas timur tengah
+- Mudah dibersihkan, tidak menyerap bau dan tidak berjamur
+- Bulu pendek, halus, tidak rontok dan tidak menyebabkan alergi membuat ibadah akan semakin khusu'
+- Lebih tebal lebih empuk dan bagus untuk persendian pada saat ibadah dan sujud di permukaan yang kasar
+- Dengan Rumbai yg di jahit kuat dan rapih terlihat semakin elegan dan minimalis
+- Sangat cocok untuk oleh-oleh haji dan umroh, ataupun sebagai hadiah tasyakuran, seserahan dll.
 
-The Blue Mountains are considered by many to be a hiker's and camper's paradise. The traditional Blue Mountain trek is a 7-mile hike to the peak and consists of a 3,000-foot increase in elevation. Jamaicans prefer to reach the peak at sunrise, thus the 3–4 hour hike is usually undertaken in darkness. Since the sky is usually very clear in the mornings, Cuba can be seen in the distance.
+1 Karton berisi 40 pcs memiliki motif dan warna bervariasi (serian dari pabrik). Foto disini hanya sebagai contoh dari serian motif dan warna saja.
+Ukuran: Panjang 52 cm x Lebar 115 cm, Berat 600 gr.
 
->Some of the plants found on the Blue Mountain cannot be found anywhere else in the world and they are often of a dwarfed sort.
 
-This is mainly due to the cold climate which inhibits growth. The small coffee farming communities of Claverty Cottage and Hagley Gap are located near the peak.
+PERHATIAN PENTING :
+* Boleh Beli Satuan
+* Mohon maaf tidak bisa pilih motif dan warna (akan dikirim acak tergantung ketersediaan stok).
+* Selalu baru dan Semua Produk beda motif dan warna
 
-## What you need to know before trying
+PENGIRIMAN DALAM JUMLAH BESAR / GROSIR:
+Silahkan hubungi kami untuk harga dan ongkos kirim.
 
-Jamaican Blue Mountain Coffee or Jamaica Blue Mountain Coffee is a classification of coffee grown in the Blue Mountains of Jamaica. The best lots of Blue Mountain coffee are noted for their mild flavor and lack of bitterness. Over the past few decades, this coffee has developed a reputation that has made it one of the most expensive and sought-after coffees in the world. Over 80% of all Jamaican Blue Mountain Coffee is exported to Japan. In addition to its use for brewed coffee, the beans are the flavor base of Tia Maria coffee liqueur.
-
-Jamaican Blue Mountain Coffee is a globally protected certification mark, meaning only coffee certified by the Coffee Industry Board of Jamaica can be labeled as such. It comes from a recognized growing region in the Blue Mountain region of Jamaica, and its cultivation is monitored by the Coffee Industry Board of Jamaica.
-
-The Blue Mountains are generally located between Kingston to the south and Port Antonio to the north. Rising 7,402 ft, they are some of the highest mountains in the Caribbean. The climate of the region is cool and misty with high rainfall. The soil is rich, with excellent drainage. This combination of climate and soil is considered ideal for coffee.
+Terimakasih dan Selamat Berbelanja.

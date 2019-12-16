@@ -28,10 +28,10 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string", pattern: ['.{5,}', "Must have at least 5 characters"] }
       - { label: "Publish Date", name: "date", widget: "hidden" }
-      - { label: "Description", name: "description", widget: "text" }
       - { label: "Featured Post", name: "featuredpost", widget: "hidden", default: false }
       - { label: "Featured Image", name: "featuredimage", widget: "image" }
       - { label: "Price", name: "price", widget: "number" }
+      - { label: "Info", name: "info", widget: "list" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Description", name: "body", widget: "markdown" }
 
