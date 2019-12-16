@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: alfieqashwa/onlineshop
+  # repo: alfieqashwa/onlineshop
   branch: master
   site_url: https://onlineshop.alfieqashwa.me
   commit_messages:
@@ -13,6 +13,7 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+# =========== PRODUCT ======================
 collections:
   - name: "product" # Used in routes, e.g., /admin/collections/blog
     label: "Product" # Used in the UI
