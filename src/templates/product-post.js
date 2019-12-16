@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 
-// import { kebabCase } from "lodash";
+import { kebabCase } from "lodash";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import StyledHero from "../components/StyledHero";
@@ -33,12 +33,12 @@ export const ProductPostTemplate = ({
       </StyledHero>
       {/* === START IMAGES LIST === */}
       <section className="single-room">
+        {helmet || ""}
         <div className="single-room-images">
           <img src={featuredimage.childImageSharp.fluid.src} alt={title} />
         </div>
         {/* === END IMAGES LIST === */}
         <div className="single-room-info">
-          {helmet || ""}
           <article className="desc">
             <h3>details</h3>
             <p>description</p>
@@ -83,7 +83,7 @@ const ProductPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         helmet={
-          <Helmet titleTemplate="%s | Products">
+          <Helmet titleTemplate="%s | Product">
             <title>{`${post.frontmatter.title}`}</title>
           </Helmet>
         }
